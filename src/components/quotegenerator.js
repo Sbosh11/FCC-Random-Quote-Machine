@@ -1,6 +1,5 @@
 import React from 'react';
 import NextButton from './next-button';
-//import SocialButton from './social-button';
 import SocialButton from './social-button';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faTwitter} from '@fortawesome/free-brands-svg-icons';

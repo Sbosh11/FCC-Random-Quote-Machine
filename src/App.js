@@ -1,8 +1,6 @@
 
 import React, { Component } from 'react';
-
 import './App.css';
-//import Button from './components/button';
 import QuoteGenerator from './components/quotegenerator';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faTwitter} from '@fortawesome/free-brands-svg-icons';
