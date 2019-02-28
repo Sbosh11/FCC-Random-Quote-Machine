@@ -1,14 +1,5 @@
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,17 +7,70 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+.Card {
+  width: 50%;
+  min-height: 100px;
+  background: #869a9a;
+  padding: 50px;
+  border-radius: 10px;
+  line-height: 1.2em;
+  background: -webkit-linear-gradient(315deg, #a6e0e5 32%,#fae0e4 68%);
+  background: -o-linear-gradient(315deg, #a6e0e5 32%,#fae0e4 68%);
+  background: linear-gradient(135deg, #a6e0e5 32%,#fae0e4 68%); 
 }
 
-.App-link {
-  color: #61dafb;
+#text, p {
+  text-align: center;
+  color: #5a8193;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.nextButton {
+ 
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #e0ecec;
+  color: #5e5869;
+  margin-right: auto;
+  
+}
+button.socialButton:hover {
+  background: #a6e0e5;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.nextButton:hover {
+  background: #70cdcd;
+  color: #fcf7f7;
+}
+.svg-inline--fa.fa-w-16 {
+align-self: center;
+color: white;
+
+}
+
+.Links {
+  display: flex;
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (max-width: 768px) {
+  .Card {
+  width: 80%;
   }
 }
+
