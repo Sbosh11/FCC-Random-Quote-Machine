@@ -1,4 +1,5 @@
-This project was coded with love for Freecodecamp
+This project was build with love for Freecodecamp [View Random quote machine here](https://quote-sibs.netlify.com).
+
 
 ## Available Scripts
 
