@@ -21,6 +21,7 @@
   background: -webkit-linear-gradient(315deg, #a6e0e5 32%,#fae0e4 68%);
   background: -o-linear-gradient(315deg, #a6e0e5 32%,#fae0e4 68%);
   background: linear-gradient(135deg, #a6e0e5 32%,#fae0e4 68%); 
+  box-shadow: 10px 10px 14px 1px rgba(0,0,0,.2);
 }
 
 #text, p {
